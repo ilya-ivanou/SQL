@@ -1,3 +1,4 @@
+--создание таблиц, с uuid и ключами PRIMARY KEY и FOREIGN KEY
 create table employee
 (
   employee_id UUID default gen_random_uuid() NOT null, 
